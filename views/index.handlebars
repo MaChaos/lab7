@@ -28,6 +28,9 @@
 		</div>
 
 		<h4>Projects</h4>
+		{{#if min}}
+			Min<button class="likeBtn">Like</button>
+		{{else}}
 		{{#each projects}}
 			<div class="project" id="{{id}}">
 				<div class="thumbnail">
@@ -40,6 +43,7 @@
 				</div>
 			</div>
 		{{/each}}
+		{{/if}}
 
 
 	<script src="https://code.jquery.com/jquery.js"></script>

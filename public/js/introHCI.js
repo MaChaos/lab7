@@ -15,5 +15,5 @@ function initializePage() {
 
 function sendData(e) {
 	e.preventDefault();
-	ga("send","event",<like>,<click>);
+	ga("send","event",'like','click');
 }
